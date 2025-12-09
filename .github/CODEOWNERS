@@ -1,38 +1,38 @@
 # Last match in file takes precedence.
 
 # C# code
-/Content.*/ @DeltaV-Station/maintainers
+/Content.*/ @Floof-Station/code-maintainers
 
 # Any assets
-/Resources/ @DeltaV-Station/maintainers
+/Resources/ @Floof-Station/code-maintainers
 
 # Server config files
-/Resources/ConfigPresets/ @deltanedas
+/Resources/ConfigPresets/ @M3739
 
 # YML files
-/Resources/*.yml @DeltaV-Station/yaml-maintainers
-/Resources/**/*.yml @DeltaV-Station/yaml-maintainers
+/Resources/*.yml @Floof-Station/yaml-maintainers
+/Resources/**/*.yml @Floof-Station/yaml-maintainers
 
-# Sprites - Direction in lack of art director
-/Resources/Textures/ @DeltaV-Station/direction
+# Sprites - Code Maintainers in absence of a proper direction unit
+/Resources/Textures/ @Floof-Station/code-maintainers
 
 # Lobby art and music - automatically direction issues since its immediately visible to players
-/Resources/Audio/Lobby/ @DeltaV-Station/direction
-/Resources/Textures/LobbyScreens/ @DeltaV-Station/direction
+/Resources/Audio/Lobby/ @Floof-Station/direction
+/Resources/Textures/LobbyScreens/ @Floof-Station/direction
 
 # Maps
-/Resources/Maps/ @DeltaV-Station/maptainers
-/Resources/Prototypes/Maps/ @DeltaV-Station/maptainers
-/Content.IntegrationTests/Tests/PostMapInitTest.cs @DeltaV-Station/maptainers
+/Resources/Maps/ @Floof-Station/map-maintainers
+/Resources/Prototypes/Maps/ @Floof-Station/map-maintainers
+/Content.IntegrationTests/Tests/PostMapInitTest.cs @Floof-Station/map-maintainers
 
-# Server rules
-/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @DeltaV-Station/head-administrators
+# Server rules - directors in absence of head administration.
+/Resources/ServerInfo/Guidebook/DeltaV/Rules/ @Floof-Station/directors
 
 # Tools and scripts
-/Tools/ @deltanedas
+/Tools/ @m3739
 
 # Workflows, codeowners, templates, etc.
-/.github/ @deltanedas
+/.github/ @m3739
 
 # Standalone files in the root repo
-/* @deltanedas
+/* @m3739
