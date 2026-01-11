@@ -1831,7 +1831,6 @@
     sprite: _Floof/Objects/Weapons/Melee/e_sabre_inhand.rsi
   - type: Tag
     tags:
-    - NoPaint
     - EnergySabre
 
 - type: entity
