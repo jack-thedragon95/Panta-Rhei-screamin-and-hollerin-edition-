@@ -21,10 +21,6 @@
   - type: EmitSoundOnTrigger
     sound:
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
-  - type: Food
-    requiresSpecialDigestion: true
-    useSound:
-      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: MeleeWeapon
     wideAnimationRotation: -90
     soundHit:
@@ -54,10 +50,6 @@
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: EmitSoundOnTrigger
     sound:
-      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
-  - type: Food
-    requiresSpecialDigestion: true
-    useSound:
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: MeleeWeapon
     wideAnimationRotation: -90
@@ -114,10 +106,6 @@
   - type: EmitSoundOnTrigger
     sound:
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
-  - type: Food
-    requiresSpecialDigestion: true
-    useSound:
-      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: MeleeWeapon
     wideAnimationRotation: -90
     soundHit:
@@ -147,10 +135,6 @@
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: EmitSoundOnTrigger
     sound:
-      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
-  - type: Food
-    requiresSpecialDigestion: true
-    useSound:
       path: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: MeleeWeapon
     wideAnimationRotation: -90
@@ -1798,8 +1782,10 @@
     color: white
     selectableColor: true
     capacity: 500
-  - type: Food
+  - type: Edible
     utensilRequired: true # I ate my fucking paintbrush
+    utensil: Fork
+    requiresSpecialDigestion: true # Stop eating my paintbrushes you evil mothroaches
   - type: SolutionContainerManager
     solutions:
       food:
