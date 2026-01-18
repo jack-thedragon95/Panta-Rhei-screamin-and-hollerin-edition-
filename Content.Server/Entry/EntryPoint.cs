@@ -77,7 +77,7 @@ namespace Content.Server.Entry
         [Dependency] private readonly ServerApi _serverApi = default!;
         [Dependency] private readonly ServerInfoManager _serverInfo = default!;
         [Dependency] private readonly ServerUpdateManager _updateManager = default!;
-        private IServerConsentManager _consentManager = default!; // Floofstation
+        [Dependency] private readonly IServerConsentManager _consentManager = default!; // Floofstation
 
         public override void PreInit()
         {
